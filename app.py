@@ -11,7 +11,7 @@ nltk.download('punkt')
 nltk.download('stopwords')
 
 # Sample DataFrame (Replace this with your actual DataFrame)
-file_path = 'C:\\Users\\govin\\OneDrive\\Desktop\\Python\\Linkedin_job_postings\\data.csv'
+file_path = 'https://raw.githubusercontent.com/mages-g/RTD2/main/data.csv'
 df = pd.read_csv(file_path)
 common_words = ['data', 'experience', 'business', 'work', 'skills', 'including', 'ability', 'new',
     'years', 'job', 'information', 'time', 'status', 'using', 'across', 'us', 'based',
