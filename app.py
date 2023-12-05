@@ -101,7 +101,7 @@ def main():
         if job_descriptions:
             most_common_skills = get_skills(job_descriptions, num_display)
             skills_string = ", ".join([skill[0] for skill in most_common_skills])
-            st.write(f"Include these skills to your resume for max relevance: {skills_string}")
+            st.write(f"Acquire these skills for max relevance: {skills_string}")
 
             # Plot top 30 skills sorted by occurrence count
             top_skills = dict(sorted(dict(most_common_skills[:30]).items(), key=lambda item: item[1], reverse=True))
